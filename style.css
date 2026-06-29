@@ -1,0 +1,457 @@
+/* --- Corporate Clean Base Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #0a0f1d;
+    color: #e2e8f0;
+    overflow-x: hidden;
+    min-height: 100vh;
+    letter-spacing: 0.3px;
+}
+
+/* --- Solid Background Canvas --- */
+.system-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0a0f1d;
+    z-index: -2;
+}
+
+/* --- Corporate Top Navigation Header --- */
+.main-navigation-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 6%;
+    background: #0f172a;
+    border-bottom: 1px solid #1e293b;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+
+.full-identity-brand {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.3px;
+}
+
+.nav-links-deck {
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+}
+
+.nav-control {
+    text-decoration: none;
+    color: #94a3b8;
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+}
+
+.nav-control:hover, .nav-control.active {
+    color: #ffffff;
+    background-color: #1e293b;
+}
+
+/* --- Content Workspace Layout --- */
+.application-space {
+    max-width: 1050px;
+    margin: 150px auto 80px auto;
+    padding: 0 2rem;
+}
+
+.viewport-card {
+    display: none;
+    background: #131b2e;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 3.5rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Single-Page Active Toggles */
+.viewport-card.active-card {
+    display: block;
+    animation: corporateFade 0.4s ease-out forwards;
+}
+
+@keyframes corporateFade {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Section Typography Elements --- */
+.section-title {
+    font-size: 1.75rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* --- Interactive Core Buttons --- */
+.corporate-btn {
+    display: inline-block;
+    padding: 0.85rem 2.2rem;
+    background-color: #2f66ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.corporate-btn:hover {
+    background-color: #1a52f2;
+    transform: translateY(-2px);
+}
+
+.shadow-accent {
+    box-shadow: 0 4px 20px rgba(47, 102, 255, 0.3);
+}
+
+.inline-spacing-btn {
+    margin-top: 1.8rem;
+}
+
+/* --- Home Showcase Content --- */
+.hero-presentation {
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.system-status-indicator {
+    color: #2f66ff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.main-headline {
+    font-size: 3.4rem;
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 1.2rem;
+    letter-spacing: -1.5px;
+}
+
+.hero-subtext {
+    font-size: 1.25rem;
+    color: #94a3b8;
+    max-width: 650px;
+    margin-bottom: 2.5rem;
+    line-height: 1.65;
+}
+
+/* --- Profile Content Block --- */
+.narrative-column p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+}
+
+.narrative-column p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- Timeline Architecture --- */
+.timeline-corporate-card {
+    background: #0f172a;
+    padding: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+}
+
+.timeline-header-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-token {
+    font-size: 0.75rem;
+    background: rgba(47, 102, 255, 0.1);
+    color: #2f66ff;
+    padding: 0.2rem 0.6rem;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.university-name {
+    color: #ffffff;
+    margin: 0.4rem 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.timeline-sub-date {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+}
+
+.curriculum-points {
+    line-height: 1.75;
+    color: #94a3b8;
+}
+
+/* --- Progress Metrics Bars --- */
+.section-descriptor {
+    color: #94a3b8;
+    margin-bottom: 2.5rem;
+}
+
+.skills-metrics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.metric-labels-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: #ffffff;
+}
+
+.metric-track {
+    width: 100%;
+    height: 6px;
+    background: #1e293b;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.metric-fill {
+    height: 100%;
+    background-color: #2f66ff;
+    border-radius: 3px;
+}
+
+/* --- Projects Panels --- */
+.project-corporate-card {
+    background: #0f172a;
+    padding: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+}
+
+.project-card-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #64748b;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.technology-stack-line {
+    color: #2f66ff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.project-details-text {
+    line-height: 1.75;
+    color: #94a3b8;
+}
+
+/* --- Certification Panels Layout --- */
+.certification-corporate-split {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+.credential-document-img {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #1e293b;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.credential-issuer-line {
+    color: #2f66ff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 0.4rem 0 1.2rem 0;
+}
+
+.credential-summary-text {
+    line-height: 1.75;
+    color: #94a3b8;
+}
+
+/* --- Ecosystem Tooling Grid --- */
+.tools-corporate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.tool-corporate-box {
+    background: #0f172a;
+    padding: 2rem 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #1e293b;
+    transition: border-color 0.2s ease;
+}
+
+.tool-corporate-box:hover {
+    border-color: #2f66ff;
+}
+
+.tool-meta-category {
+    font-size: 0.75rem;
+    color: #64748b;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.tool-main-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* --- Manifesto Text Layout --- */
+.corporate-blockquote {
+    font-size: 1.45rem;
+    line-height: 1.65;
+    color: #2f66ff;
+    margin-bottom: 2rem;
+    border-left: 4px solid #2f66ff;
+    padding-left: 1.5rem;
+    font-style: italic;
+}
+
+.manifesto-text-paragraph {
+    line-height: 1.8;
+    color: #94a3b8;
+}
+
+/* --- Objectives Workflow --- */
+.objectives-vertical-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.objective-corporate-node {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: #0f172a;
+    padding: 1.8rem;
+    border-radius: 6px;
+    border: 1px solid #1e293b;
+}
+
+.objective-index-marker {
+    color: #2f66ff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.objective-corporate-node p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+/* --- Contact Communication Cards --- */
+.contact-invitation-sub {
+    margin-bottom: 2.5rem;
+    color: #94a3b8;
+}
+
+.corporate-contact-card {
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 2.5rem;
+    display: inline-block;
+    width: 100%;
+    max-width: 650px;
+}
+
+.contact-data-row {
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+}
+
+.contact-data-row:last-child {
+    margin-bottom: 0;
+}
+
+.data-label {
+    color: #64748b;
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+.data-link-anchor {
+    color: #2f66ff;
+    text-decoration: none;
+}
+
+.data-static-text {
+    color: #ffffff;
+}
+
+/* --- Responsive Layout Configurations --- */
+@media (max-width: 950px) {
+    .main-navigation-bar {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding: 1rem;
+    }
+    .nav-links-deck {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.6rem;
+    }
+    .application-space {
+        margin-top: 240px;
+    }
+    .viewport-card {
+        padding: 2rem;
+    }
+    .certification-corporate-split {
+        grid-template-columns: 1fr;
+    }
+    .main-headline {
+        font-size: 2.3rem;
+    }
+}
