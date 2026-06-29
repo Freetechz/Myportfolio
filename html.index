@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdurrahman Haruna Haruna | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Solid Core Corporate Background Layer -->
+    <div class="system-backdrop"></div>
+
+    <!-- Corporate Structured Top Bar -->
+    <header class="main-navigation-bar">
+        <div class="full-identity-brand">Abdurrahman Haruna Haruna</div>
+        <nav class="navigation-hub">
+            <ul class="nav-links-deck">
+                <li><a href="#" class="nav-control active" data-target="sec-home">Home</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-about">Profile</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-edu">Education</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-skills">Skills Matrix</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-work">Projects</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-cert">Credentials</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-stack">Ecosystem</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-mindset">Methodology</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-goals">Objectives</a></li>
+                <li><a href="#" class="nav-control" data-target="sec-contact">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Master Viewport Workspace -->
+    <main class="application-space">
+
+        <!-- PAGE 1: HOME -->
+        <section id="sec-home" class="viewport-card active-card">
+            <div class="hero-presentation">
+                <span class="system-status-indicator">Engineering Live Workspace // Level 200 SE</span>
+                <h1 class="main-headline">Software Architecture & Web Systems</h1>
+                <p class="hero-subtext">Developing robust backends, semantic web interfaces, and responsive software solutions.</p>
+                <div class="button-group">
+                    <a href="mailto:harunabdurrahman2005@gmail.com" class="corporate-btn shadow-accent">Initiate Correspondence</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 2: PROFILE/ABOUT -->
+        <section id="sec-about" class="viewport-card">
+            <h2 class="section-title">Professional Profile</h2>
+            <div class="profile-card-layout">
+                <div class="narrative-column">
+                    <p>I am Abdurrahman, a software engineering student driven by structural logic, technical optimization, and pristine codebase management. I focus on reducing programmatic complexity to deliver clean, scalable web applications.</p>
+                    <p>Currently deep within my 200 Level curriculum in Software Engineering at Northwest University, Kano (YUMSUK), I am dedicating my focus toward mastering object-oriented paradigms, algorithmic optimization, data safety standards, and reliable structural workflows.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 3: EDUCATION -->
+        <section id="sec-edu" class="viewport-card">
+            <h2 class="section-title">Academic Framework</h2>
+            <div class="educational-timeline-deck">
+                <div class="timeline-corporate-card">
+                    <div class="timeline-header-meta">
+                        <h3>B.Sc. Software Engineering</h3>
+                        <span class="status-token">Active Enrollment</span>
+                    </div>
+                    <p class="university-name">Northwest University, Kano</p>
+                    <p class="timeline-sub-date">Current Level 200 Student</p>
+                    <p class="curriculum-points">Actively specializing in relational database structure design, asynchronous backend workflows, algorithm construction patterns, and robust software architecture models.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 4: TECHNICAL SKILLS -->
+        <section id="sec-skills" class="viewport-card">
+            <h2 class="section-title">Core Competencies</h2>
+            <p class="section-descriptor">An accurate metric measurement of practical technical confidence across foundational engineering layers, omitting generic graphic labels.</p>
+            <div class="skills-metrics-list">
+                <div class="metric-block">
+                    <div class="metric-labels-row"><span>Document Tree Hierarchy & Semantics</span><span>90%</span></div>
+                    <div class="metric-track"><div class="metric-fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="metric-block">
+                    <div class="metric-labels-row"><span>Layout Modeling & Fluid System Architecture</span><span>85%</span></div>
+                    <div class="metric-track"><div class="metric-fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="metric-block">
+                    <div class="metric-labels-row"><span>Asynchronous Execution Loops & Native JavaScript</span><span>75%</span></div>
+                    <div class="metric-track"><div class="metric-fill" style="width: 75%;"></div></div>
+                </div>
+                <div class="metric-block">
+                    <div class="metric-labels-row"><span>Server Runtime Server Ecosystems (Node.js)</span><span>60%</span></div>
+                    <div class="metric-track"><div class="metric-fill" style="width: 60%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 5: REPOSITORIES/PROJECTS -->
+        <section id="sec-work" class="viewport-card">
+            <h2 class="section-title">System Implementations</h2>
+            <div class="projects-corporate-deck">
+                <div class="project-corporate-card">
+                    <div class="project-card-header"><span>Build Index: #001</span><span>Stable Deploy</span></div>
+                    <h3>Unified Single-Page Production Portfolio</h3>
+                    <p class="technology-stack-line">Vanilla Architecture / Native DOM Scripts / Clean Layout Structuring</p>
+                    <p class="project-details-text">My primary live engineering release. Handcrafted completely from scratch without third-party layout engines or frameworks, this application incorporates dynamic routing scripts, multi-device adaptive layout constraints, and clean, readable typographic scaling.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 6: CERTIFICATIONS -->
+        <section id="sec-cert" class="viewport-card">
+            <h2 class="section-title">Verified Certifications</h2>
+            <div class="certification-corporate-split">
+                <div class="document-rendering-frame">
+                    <img src="harunacert.jpg" alt="freeCodeCamp Verified Professional Credential Document" class="credential-document-img">
+                </div>
+                <div class="document-details-panel">
+                    <h3>Responsive Web Design Certification</h3>
+                    <p class="credential-issuer-line">Issued by freeCodeCamp Global Registry</p>
+                    <p class="credential-summary-text">Rigorous practical curriculum validating deep knowledge of layout fluidity, screen grid mechanics, semantic accessibility parameters, and responsive style optimization strategies.</p>
+                    <a href="https://www.freecodecamp.org/certification/abdurrahman-haruna-haruna/responsive-web-design" target="_blank" rel="noopener noreferrer" class="corporate-btn inline-spacing-btn">Launch Live Verification Link</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 7: HOSTING & TOOLS -->
+        <section id="sec-stack" class="viewport-card">
+            <h2 class="section-title">Infrastructure Ecosystem</h2>
+            <div class="tools-corporate-grid">
+                <div class="tool-corporate-box">
+                    <span class="tool-meta-category">Version Control</span>
+                    <p class="tool-main-title">GitHub</p>
+                </div>
+                <div class="tool-corporate-box">
+                    <span class="tool-meta-category">Serverless Deploy</span>
+                    <p class="tool-main-title">Vercel</p>
+                </div>
+                <div class="tool-corporate-box">
+                    <span class="tool-meta-category">CDN Distribution</span>
+                    <p class="tool-main-title">Netlify</p>
+                </div>
+                <div class="tool-corporate-box">
+                    <span class="tool-meta-category">Cloud Infrastructure</span>
+                    <p class="tool-main-title">Render</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 8: PHILOSOPHY -->
+        <section id="sec-mindset" class="viewport-card">
+            <h2 class="section-title">Engineering Manifesto</h2>
+            <div class="manifesto-corporate-layout">
+                <blockquote class="corporate-blockquote">
+                    "Excellence in software development lies in building predictable systems. Clean, explicit code logic and semantic architectural layouts will always remain superior to ephemeral design trends."
+                </blockquote>
+                <p class="manifesto-text-paragraph">I structure my software projects with a strong focus on clear maintainability and rapid asset delivery speeds. Every program file, markup node, and design property is written with intent, ensuring optimized performance right from execution.</p>
+            </div>
+        </section>
+
+        <!-- PAGE 9: FUTURE GOALS -->
+        <section id="sec-goals" class="viewport-card">
+            <h2 class="section-title">Strategic Growth Objectives</h2>
+            <div class="objectives-vertical-flow">
+                <div class="objective-corporate-node">
+                    <span class="objective-index-marker">01 //</span>
+                    <p>Engineer secure, scalable web API layers and robust backend execution engines utilizing optimized Node.js platforms.</p>
+                </div>
+                <div class="objective-corporate-node">
+                    <span class="objective-index-marker">02 //</span>
+                    <p>Implement secure database mapping architectures to coordinate continuous, high-speed application data transactions.</p>
+                </div>
+                <div class="objective-corporate-node">
+                    <span class="objective-index-marker">03 //</span>
+                    <p>Contribute open-source assets aimed at maximizing web interface accessibility speeds across regional mobile networks.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 10: CONTACT DETAILS -->
+        <section id="sec-contact" class="viewport-card">
+            <h2 class="section-title">Initiate Connection</h2>
+            <p class="contact-invitation-sub">Available for technical software alignments, application builds, and system engine collaborations.</p>
+            <div class="corporate-contact-card">
+                <div class="contact-data-row"><span class="data-label">EMAIL_REGISTRY:</span> <a href="mailto:harunabdurrahman2005@gmail.com" class="data-link-anchor">harunabdurrahman2005@gmail.com</a></div>
+                <div class="contact-data-row"><span class="data-label">PHONE_CHANNEL:</span> <a href="tel:+2348168686780" class="data-link-anchor">08168686780</a></div>
+                <div class="contact-data-row"><span class="data-label">OFFICE_REGION:</span> <span class="data-static-text">Kano State, Nigeria</span></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
